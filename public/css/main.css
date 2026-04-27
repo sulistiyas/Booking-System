@@ -48,7 +48,7 @@
   .shell {
     display: flex;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden;/ */
   }
 
   /* ============================================
@@ -248,7 +248,7 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    /* overflow: hidden; */
     min-width: 0;
   }
 

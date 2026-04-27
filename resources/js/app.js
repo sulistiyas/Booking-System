@@ -1,10 +1,10 @@
 import './bootstrap';
 import Alpine from 'alpinejs';
+import flash from './alpine/flash';
 
-window.Alpine = Alpine;
 
 // alpine components
-
+Alpine.data('flash', flash);
 // alpine pages
 
 // register alpine pages
@@ -12,4 +12,5 @@ window.Alpine = Alpine;
 // register alpine components
 
 // start alpine
+window.Alpine = Alpine;
 Alpine.start();

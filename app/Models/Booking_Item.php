@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Booking_Item extends Model
 {
+    protected $table = 'booking_items';
     protected $fillable = [
         'booking_id',
         'resource_id',
